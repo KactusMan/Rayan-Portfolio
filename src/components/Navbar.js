@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import pdf from '../Assets/Rayans_Dev_Resume.pdf'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -82,22 +83,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <a href="./Assets/Rayans_Dev_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+            <Nav.Item className="navv">
               
-              </a>
+                
+                <a href = {pdf} target = "_blank" className="anchor">
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                </a>
+             
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
+           
 
             <Nav.Item className="fork-btn">
               <Button

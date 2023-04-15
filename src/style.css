@@ -357,6 +357,15 @@ button:focus {
   padding-top: 25px;
   color: white !important;
 }
+.anchor, .anchor:hover, .anchor:focus, .anchor:active {
+  text-decoration: none;
+  color: #fff;
+}
+.navv {
+  position: absolute;
+  top: 13px;
+}
+
 
 .home-about-social-links {
   justify-content: center !important;
