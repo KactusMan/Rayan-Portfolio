@@ -83,13 +83,10 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <a href="./Assets/Rayans_Dev_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
+              
+              </a>
             </Nav.Item>
 
             <Nav.Item>
