@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Rayan Idrees </span>
             from <span className="purple"> Karachi, Pakistan.</span>
-            <br />I am a pursuing an IT diploma from Aligarh Institute
+            <br />I am a pursuing a bachelor's degree in IT from Sir Syed University
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
