@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pdf from '../Assets/Rayan-Resum.pdf'
+import pdf from '../Assets/Rayan-updatedResume.pdf'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
