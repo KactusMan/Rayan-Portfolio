@@ -1835,7 +1835,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 150px; border-radius: 25px; }
 
   .info-content .name {
     white-space: nowrap;
@@ -1879,4 +1879,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+#service-1, #service-2, #testimonials, #clients {
+  display: none;
 }
